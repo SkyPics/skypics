@@ -1,7 +1,7 @@
 /*
 *
 * ==========================================
-* CUSTOM UTIL CLASSES
+* CSS
 * ==========================================
 *
 */
@@ -14,6 +14,9 @@
     position: fixed;
     top: 0;
     left: 0;
+    background-image: url(../img/souu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .loader-inner {
@@ -21,6 +24,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #f8f9fa75;
+    padding: 1em;
 }
 
 
